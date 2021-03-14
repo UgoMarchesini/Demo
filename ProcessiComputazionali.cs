@@ -301,13 +301,11 @@ namespace WPFSandBox
                 return accumulator;
             }
         }
-
-
     }
 
-    public static class ProcessiComputazionaliiTest
+    public static class ProcessiComputazionaliTest
     {
-        public static  void Test001()
+        public static void Test001()
         {
             Processo processo = new Processo();
 
@@ -316,8 +314,6 @@ namespace WPFSandBox
             int n = 3;
             int LOOP = 1000000;
             int r = 0;
-
-            
 
             sw.Restart();
             for (int i = 0; i < LOOP; i++)
